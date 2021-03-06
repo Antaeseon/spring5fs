@@ -28,11 +28,11 @@ public class AppCtx {
 //        return new ChangePasswordService();
 //    }
 
-    @Bean
-    @Qualifier("printer")
-    public MemberPrinter memberPrinter1() {
-        return new MemberPrinter();
-    }
+//    @Bean
+//    @Qualifier("printer")
+//    public MemberPrinter memberPrinter1() {
+//        return new MemberPrinter();
+//    }
 
     @Bean
     public MemberSummaryPrinter memberPrinter2() {

@@ -5,6 +5,7 @@ import org.springframework.lang.Nullable;
 
 import java.time.format.DateTimeFormatter;
 
+
 public class MemberPrinter {
 
     private DateTimeFormatter dateTimeFormatter;
