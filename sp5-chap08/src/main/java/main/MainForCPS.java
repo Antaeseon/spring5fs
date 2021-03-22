@@ -21,7 +21,6 @@ public class MainForCPS {
         } catch (WrongIdPasswordException e) {
             System.out.println("암호가 올바르지 않습니다.");
         }
-
 //        cpx.close();
 
     }

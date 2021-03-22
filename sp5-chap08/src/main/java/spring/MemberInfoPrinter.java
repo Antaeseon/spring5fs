@@ -19,11 +19,11 @@ public class MemberInfoPrinter {
         System.out.println();
     }
 
-//    public void setMemberDao(MemberDao memberDao) {
-//        this.memberDao = memberDao;
-//    }
-//
-//    public void setPrinter(MemberPrinter printer) {
-//        this.printer = printer;
-//    }
+    public void setMemberDao(MemberDao memberDao) {
+        this.memberDao = memberDao;
+    }
+
+    public void setPrinter(MemberPrinter printer) {
+        this.printer = printer;
+    }
 }
