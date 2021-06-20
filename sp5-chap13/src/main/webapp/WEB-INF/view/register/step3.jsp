@@ -7,17 +7,16 @@
     <title><spring:message code="member.register" /></title>
 </head>
 <body>
-<p>
-    <spring:message code="register.done">
-        <spring:argument value="${registerRequest.name}" />
-        <spring:argument value="${registerRequest.email}" />
-
-    </spring:message>
-</p>
-<p>
-    <a href="<c:url value='/main'/>">
-        [<spring:message code="go.main" />]
-    </a>
-</p>
+    <p>
+        <spring:message code="register.done">
+        	<spring:argument value="${registerRequest.name}" />
+        	<spring:argument value="${registerRequest.email}" />
+        </spring:message>
+    </p>
+    <p>
+        <a href="<c:url value='/main'/>">
+            [<spring:message code="go.main" />]
+        </a>
+    </p>
 </body>
 </html>
