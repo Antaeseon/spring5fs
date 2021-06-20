@@ -13,6 +13,12 @@ public class AuthService {
         if (member == null) {
             throw new WrongIdPasswordException();
         }
+        if (!member.matchPassword(password)) {
+            throw new WrongIdPasswordException();
+        }
+        return new AuthInfo(member.getId(),
+                member.getEmail(),
+                member.getName());
     }
 
 }
