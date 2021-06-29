@@ -12,7 +12,7 @@ import spring.MemberRegisterService;
 
 @Configuration
 @EnableTransactionManagement
-public class MemberConfig {
+public class  MemberConfig {
 
     @Bean(destroyMethod = "close")
     public DataSource dataSource() {

@@ -23,6 +23,6 @@ dependencies {
     compile 'javax.validation:validation-api:1.1.0.Final'
 }
 
-task wrapper(type: Wrapper) {
+wrapper {
     gradleVersion = '4.4'
 }
